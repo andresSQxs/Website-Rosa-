@@ -1,0 +1,215 @@
+main{
+    .discover{
+        margin:2rem 0 ;
+        .container{
+            // margin
+                padding:1.5rem;
+            .grid{
+                .story{
+                    text-align: center;
+                    .nuestra{
+                        line-height: .6;
+                        .dc{
+                            font-family:$welcome;
+                            color:$oro;
+                            font-size:5rem;
+                            font-weight: normal;
+                        }
+                        .our{
+                            text-transform:uppercase;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            letter-spacing: .5rem;
+                            font-family:$rosa;
+                            margin: .5rem 0 ;
+                            line-height: .4;
+                            color:$verde-oscuro;
+                        }
+                    }
+                    .parrafo{
+                        line-height: 1.5rem;
+                        color:$gris;
+                    }
+                    .about{
+                        text-transform:uppercase;
+                        color:$oro;
+                        margin:1.5rem 0 ;
+                        display:inline-block;
+                        font-family:$rosa;
+                    }
+                    i{
+                        margin: 2rem 0;
+                        color:$gris;
+                    }
+                }
+            }
+        }
+    }
+
+    .recipes{
+        background-image: url(../images/tasteful-recipes.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        .container{
+            padding:1.5rem;
+            .fondodos{
+                line-height: .7;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 50vh;
+                .tasteful{
+                    font-family: $welcome;
+                    color:$oro;
+                    font-size:5rem;
+                    font-weight: normal;
+                }
+                .recipes{
+                    text-transform: uppercase;
+                    color:#fff;
+                    line-height: .4;
+                    font-family:$rosa;
+                    font-size:1.7rem;
+                    letter-spacing: .7rem;
+                    
+                }
+            }
+        }
+    }
+
+    .comidas{
+        margin:2rem 0;
+        .container{
+            padding:1.5rem;
+            .grid{
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap:1rem;
+                }
+                .menu{
+                    text-align: center;
+                    margin-top:2rem;
+                    line-height: .6;
+                    .cover{
+                        font-size:5rem;
+                        font-weight:normal;
+                        color:$oro;
+                        font-family:$welcome;
+                    }
+                    .unme{
+                        font-family:$rosa;
+                        font-size:1.7rem;
+                        text-transform: uppercase;
+                        color:$verde-oscuro;
+                    }
+                    .parrafodos{
+                        color:$gris;
+                        line-height: 1.5rem;
+                    }
+                    .view{
+                        text-transform:uppercase;
+                        color:$oro;
+                        margin:1.5rem 0 ;
+                        font-family:$rosa;
+                        display:inline-block;
+                    }
+                    i{
+                        margin:2rem 0 ;
+                        color:$gris;
+                    }
+                }
+            }
+        }
+    }
+
+    .perfect{
+        background-image: url(../images/perfect-blend.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        .container{
+            padding:1.5rem;
+            .fondotres{
+                line-height: .8;
+                text-align: center;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 50vh;
+                .perfecto{
+                    color:$oro;
+                    font-family: $welcome;
+                    font-size:5rem;
+                    font-weight: normal;
+                }
+                .blend{
+                    color:#fff;
+                    text-transform: uppercase;
+                    font-size:1.7rem;
+                    font-family: $rosa;
+                    line-height: .4;
+                    letter-spacing: .7rem;
+                }
+            }
+        }
+    }
+
+    .culinary{
+        margin:2rem 0;
+        .container{
+            padding: 1.5rem;
+            .grid{
+                .menu{
+                    text-align: center;
+                    .culinario{
+                        line-height: .1;
+                        .culinary{
+                            font-family: $welcome;
+                            color:$oro;
+                            font-weight:normal ;
+                            font-size: 5rem;
+                        }
+                        .delinea{
+                            color:$verde-oscuro;
+                            text-transform: uppercase;
+                            text-transform: uppercase;
+                            font-size:2rem;
+                            font-family: $rosa;
+                            letter-spacing: .5rem;
+                            line-height: .4;
+                            font-weight: bold;
+                        }
+                    }
+                    .parrafocuatro{
+                        color:$gris;
+                        line-height: 1.5rem;
+                    }
+                    .reservation{
+                        text-transform:uppercase;
+                        color:$oro;
+                        margin:1.5rem 0 ;
+                        font-family:$rosa;
+                        display:inline-block;
+                    }
+                    i{
+                        margin:2rem 0;
+                        color:$gris;
+                    }
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns:repeat(2,1fr);
+                    gap:.5rem;
+                }
+            }
+        }
+    }
+}

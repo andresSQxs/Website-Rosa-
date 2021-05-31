@@ -1,0 +1,147 @@
+@media screen and(min-width:768px){
+    main{
+        .discover{
+            .container{
+                padding:0 5rem;
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    align-items: center;
+                    gap:2rem;
+                
+                }
+            }
+        }
+
+        .comidas{
+            .container{
+                padding:0 5rem;
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    align-items: center;
+                    gap:2rem;
+                }
+            }
+        }
+
+        .culinary{
+            .container{
+                padding:0 5rem;
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    align-items: center;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+
+    .piedepagina{
+        .container{
+            padding:1.5rem;
+            .sobre{
+                .lorem{
+                    margin:auto;
+                    width:500px;
+                }
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                margin-top:1rem;
+            }
+        }
+    }
+}
+@media screen and(min-width:998px){
+    header{
+        .container{
+            .flex{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .navbar{
+                    position:static;
+                    background-color: transparent;
+                    padding-top: 0;
+                    width: auto;
+                    height: auto;
+                    .link{
+                        display: inline-block;
+                        border-bottom: 0;
+                        margin: 0 .8rem;
+                        width: auto;
+                        font-family:$opened;
+                        font-weight: bold;
+                    }
+                }
+                .hamburguesa{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and(min-width:1328px){
+    main{
+        .discover{
+            .container{
+                padding:2rem 15rem;
+                .grid{
+                    display: grid;
+                    justify-items: center;
+                    img{
+                        width:400px;
+                    }
+                    .story{
+                        margin:auto;
+                        .parrafo{
+                            width:400px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .comidas{
+            .container{
+                padding:2rem 15rem;
+                .grid{
+                    .menu{
+                        margin:auto;
+                        .parrafodos{
+                            width:400px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .culinary{
+            .container{
+                padding:2rem  15rem;
+                .grid{
+                    .menu{
+                        margin:auto;
+                        .parrafocuatro{
+                            width:400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .piedepagina{
+        .container{
+            .grid{
+                .follow{
+                    i{
+                        color:#979797;
+                    }
+                }
+            }
+        }
+    }
+}

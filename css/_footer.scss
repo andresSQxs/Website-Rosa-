@@ -1,0 +1,58 @@
+.piedepagina{
+    background-color: #0f0f0f;
+    .container{
+        padding: 1.5rem;
+        .sobre{
+            text-align:center;
+            .rose{
+                text-transform:uppercase;
+                letter-spacing:.2rem;
+                color:#fff;
+                margin: 1.5rem 0;
+                font-family:$opened;
+            }
+            .lorem{
+                color:#fff;
+                font-family:$opened;
+                line-height: 1.5rem;
+            }
+        }
+        .grid{
+            text-align:center;
+            .follow{
+                .along{
+                    text-transform:uppercase;
+                    color:#fff;
+                    margin: 1.5rem 0;
+                    font-family:$opened;
+                    letter-spacing:.2rem;
+                    
+                }
+                i{
+                    color:$gris;
+                    margin:0 .5rem ;
+                    white-space: nowrap;
+                    font-size:1.2rem;
+                }
+            }
+            .newsletter{
+                margin: 1.5rem 0;
+                .news{
+                    text-transform:uppercase;
+                    color:#fff;
+                    letter-spacing:.2rem;
+                    font-family:$opened;
+                }
+                form{
+                    margin:1rem auto;
+                    input{
+                        padding:.4rem .3rem;
+                        outline: none;
+                        font-family:$opened;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
